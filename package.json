@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "npx:open": "npx cypress open",
+    "cy:chrome": "cypress run --browser chrome"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.6.0",
+    "cypress": "^14.2.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}
