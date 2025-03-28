@@ -4,6 +4,7 @@ const { defineConfig } = require("cypress");
 const cucumber = require('cypress-cucumber-preprocessor').default
 
 module.exports = defineConfig({
+  retries: 2,
   "viewportWidth": 1440,
   "viewportHeight": 900,
   e2e: {
